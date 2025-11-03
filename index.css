@@ -3,6 +3,7 @@ body {
   max-width: 1080px;
   margin: 0 auto 0 auto;
   background-color: antiquewhite;
+  z-index: 10;
 }
 
 #hamburg {
@@ -211,6 +212,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 20;
 }
 
 #nav-sp h1 {
@@ -345,4 +347,5 @@ footer h1 {
 }
 
 }
+
 
