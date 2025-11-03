@@ -135,10 +135,11 @@ table td span {
 footer h1 {
   font-family:"Cherry Bomb One", system-ui;
   color: blue;
-  font-size: 30px;
+  font-size: 25px;
   writing-mode: vertical-rl;
   position: relative;
   left: 5px;
+  top: 15px;
 }
 
 #contactbox img {
@@ -347,6 +348,7 @@ footer h1 {
 }
 
 }
+
 
 
 
