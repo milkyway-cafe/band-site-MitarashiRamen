@@ -1,0 +1,348 @@
+
+body {
+  max-width: 1080px;
+  margin: 0 auto 0 auto;
+  background-color: antiquewhite;
+}
+
+#hamburg {
+  display: none;
+}
+#bandName {
+  font-family:"Cherry Bomb One", system-ui;
+  color: blue;
+  font-size: 100px;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+}
+#button {
+  display: none;
+}
+
+#nav-sp, #hamburg {
+  display: none;
+}
+
+#nav-pc ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  left: 18px;
+  text-decoration: none;
+}
+
+#nav-pc li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: palevioletred;
+  padding: 0 10px 0 10px ;
+  text-decoration: none;
+}
+
+#mainvisual {
+  display: flex;
+  justify-content: center;
+}
+
+#mainvisual img {
+  width: 200px;
+  margin: 0
+}
+
+#ramenline {
+  display: flex;
+  justify-content: center;
+}
+
+#ramenline img {
+  margin: auto;
+}
+
+#about {
+  display: flex;               
+  flex-direction: column;      
+  justify-content: center;     
+  align-items: center; 
+  
+
+}
+#indexh2 {
+  color: palevioletred;
+  text-align: center;
+  width: 100%;
+  margin: 10px auto;
+}
+
+#about p {
+  text-align: center;
+  display: flex;
+  align-items: center;
+ 
+}
+
+#memberbox {
+  display: inline-block;
+  width: 400px;
+  margin: 20px 50px 0 0;
+  justify-content: center;
+}
+
+
+#member {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto 0 auto;
+  border-collapse: separate;
+  border-spacing: 50px;
+  text-align: center;
+}
+
+#concert-sp {
+  display: none;
+}
+
+table td span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#sold { 
+  font-size: 20px;
+  color: #EA504D;
+  text-align: center;
+  font-weight: bold;
+}
+ 
+#contactbox {
+  margin: 30px auto 30px auto;
+  width: 500px;
+  background-color: white;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+footer h1 {
+  font-family:"Cherry Bomb One", system-ui;
+  color: blue;
+  font-size: 30px;
+  writing-mode: vertical-rl;
+  position: relative;
+  left: 5px;
+}
+
+#contactbox img {
+  position: relative;
+  left: 15px;
+}
+#etc li, a {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: palevioletred;
+  text-decoration: none;
+}
+
+#etc {
+  align-self: center;
+}
+
+
+#backBtn {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#backBtn img{
+  width: 150px;
+}
+
+@media screen and (max-width: 767px) {
+
+body {
+  text-align: center;
+}
+
+#hamburg {
+  display: inline;
+  position: fixed;
+  right: -6px;
+  top: -1px;
+  background-color: transparent;
+  border: none;
+}
+#goback{
+  display: inline;
+  position: fixed;
+  right: 10px;
+  top: 15px;
+  background-color: transparent;
+  border: none;
+}
+
+#nav-sp {
+  background-color: blue;
+  width: 300px;
+  height: 50%;
+  border-radius: 0 0 0 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#nav-sp h1 {
+  font-family:"Cherry Bomb One", system-ui;
+  color: white;
+  margin: 40px 0 0 0;
+}
+#nav-sp ul {
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px 10px 0;
+}
+
+
+#nav-sp a {
+  color: white;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+#bandName {
+  font-size: 30px;
+}
+
+#nav-pc {
+  display: none;
+}
+
+#mainvisual img{
+  width: 70px;
+}
+
+#ramenline img {
+  width: 400px;
+}
+
+#indexh2 {
+  font-size: 20px;
+}
+
+#memberbox {
+  display: inline-block;
+  width: 400px;
+  margin: auto;
+  justify-content: center;
+}
+
+/* コンサート情報 */
+#livedate-pc {
+  display: none;
+}
+
+#concert-sp {
+  display: block;
+}
+
+#date {
+  letter-spacing: 3px;
+  font-family:"Cherry Bomb One", system-ui;
+  font-size: 25px;
+  color: blue;
+  margin: auto;
+  background-color: white;
+  border-radius: 50px;
+  width: 200px;
+  height: 40px;
+  
+}
+
+#concert-info span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#sold {
+  margin-bottom: 50px;
+}
+
+#contactbox {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+}
+
+#contactbox h1 {
+  writing-mode: horizontal-tb;
+  margin-bottom: 0;
+}
+
+#contactbox img {
+  position: relative;
+  right: 20px;
+}
+
+footer h1 {
+  font-family:"Cherry Bomb One", system-ui;
+  color: blue;
+  font-size: 30px;
+
+  writing-mode: vertical-rl;
+}
+
+#etc {
+  margin-bottom: 0;
+  position: relative;
+  right: 18px;
+  bottom: 20px;
+}
+
+#etc li a {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: palevioletred;
+  text-decoration: none;
+}
+
+#backBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+#backBtn img{
+  width: 100px;
+}
+
+}
+
