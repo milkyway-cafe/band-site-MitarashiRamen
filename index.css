@@ -207,7 +207,7 @@ body {
 #nav-sp {
   background-color: blue;
   width: 300px;
-  height: 50%;
+  height: 400px;
   border-radius: 0 0 0 100px;
   position: fixed;
   top: 0;
@@ -347,5 +347,6 @@ footer h1 {
 }
 
 }
+
 
 
